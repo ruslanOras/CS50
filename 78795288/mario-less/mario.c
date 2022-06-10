@@ -7,19 +7,19 @@ int main(void)
 
     do{
         //prompt user
-     n = get_int("Heght: ");
+     n = get_int("Height: ");
     }
 
     while(n < 1 || n > 8);
-//row
-for (int i = 0; i < n; i++)
-  {
+    //row
+    for (int i = 0; i < n; i++)
+    {
       //col
-    for (int j = 0; j < n; j++)
+      for (int j = 0; j < n; j++)
       {
-          if(i + j < n - 1)
-          printf(" ");
-          else
+         if(i + j < n - 1)
+           printf(" ");
+         else
           printf("#");
       }
       printf("\n");
