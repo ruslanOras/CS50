@@ -5,12 +5,11 @@ int main(void)
 {
     int n;
 
-    do{
+    do
+    {
         //prompt user
      n = get_int("Height: ");
-    }
-
-    while(n < 1 || n > 8);
+    }while(n < 1 || n > 8);
     //row
     for (int i = 0; i < n; i++)
     {
